@@ -1,0 +1,1 @@
+It is recommended to read the Instructions.txt file before downloading the File Organizer.py file. If you don't know on how to use the File Organizer, it is recommended to read the Instructions.txt file. (You don't need to do this but it is recommended.)

@@ -1,0 +1,52 @@
+# File Organizer Instructions
+
+## How to Use:
+
+1. **Save the Script**  
+   - Ensure `file_organizer.py` is saved in an accessible location.
+
+2. **Open a Terminal or Command Prompt**  
+   - **Windows:** Press `Win + R`, type `cmd`, and press Enter.  
+   - **Mac/Linux:** Open the Terminal.
+
+3. **Navigate to the Script’s Directory**  
+   - Use the `cd` command to go to the folder where `file_organizer.py` is located.  
+     Example:  
+     ```
+     cd C:\path\to\your\script   # Windows  
+     cd /path/to/your/script     # Mac/Linux
+     ```
+
+4. **Run the Script**  
+   - Type the following command and press Enter:  
+     ```
+     python file_organizer.py
+     ```
+   - If Python 3 is required, use:  
+     ```
+     python3 file_organizer.py
+     ```
+
+5. **Enter the Directory to Organize**  
+   - When prompted, enter the full path of the folder you want to organize. Example:  
+     ```
+     Enter the directory path to organize: C:\Users\YourName\Downloads
+     ```
+     or  
+     ```
+     Enter the directory path to organize: /home/yourname/Downloads
+     ```
+
+6. **Let the Script Work**  
+   - The script will move files into categorized subfolders.
+   - You'll see output like:  
+     ```
+     Moved: document.pdf -> Documents/
+     Moved: picture.jpg -> Images/
+     Moved: script.py -> Code/
+     File organization completed.
+     ```
+
+## Notes:
+- If a file’s extension doesn’t match a predefined category, it will be placed in an **"Others"** folder.
+- You can modify the `FILE_CATEGORIES` dictionary in the script to customize categories.
